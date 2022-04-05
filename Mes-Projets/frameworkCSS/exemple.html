@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Exemple du Framework CSS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./build/css/framework.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row center">
+			<h3> Grille en .container</h3>
+		</div>
+		<div class="row center">
+			<div class="col-2 bg-blue">
+				<p>col-2</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+
+			</div>
+			<div class="col-3 bg-yellow">
+				<p>col-3</p>
+			</div>
+			<div class="col bg-blue">
+				<p>col</p>
+			</div>
+			<div class="col bg-yellow">
+				<p>col</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col bg-black">
+				<p>col</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid mt-2">
+		<div class="row center">
+			<h3>Grille en .container-fluid</h3>
+		</div>
+		<div class="row">
+			<div class="col-2 bg-blue">
+				<p>col-2</p>
+			</div>
+			<div class="col-3 bg-yellow">
+				<p>col-3</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+
+			</div>
+			<div class="col-4 bg-blue">
+				<p>col-4</p>
+			</div>
+			<div class="col bg-yellow">
+				<p>col</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4 bg-black">
+				<p>col-4</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+
+			</div>
+			<div class="col-2 bg-black">
+				<p>col-2</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+			</div>
+			<div class="col-4 bg-black">
+				<p>col-4</p>
+				<p>Un peu de texte pour faire de la hauteur</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="container mt-2">
+		<div class="row center">
+			<h3>Les boutons</h3>
+		</div>
+		<div class="row center">
+			<div class="col">
+				<button class="btn">btn</button>
+				<button class="btn btn-blue"> btn-blue</button>
+				<button class="btn btn-danger"> btn-danger</button>
+				<button class="btn btn-link"> btn-link</button>
+
+				<button class="btn-sm">btn-sm</button>
+				<button class="btn-xl">btn-xl</button>
+			</div>
+		</div>
+		<div class="row center">
+			<p>Ci dessus les boutons possibles pré-définis dans ce framework et leur nom de classe afin de les utiliser
+			</p>
+		</div>
+	</div>
+	<div class="container mt-2">
+		<div class="row center">
+			<h3>Les images</h3>
+		</div>
+		<div class="row center">
+			<img class="img-fluid" src="img.jpg" alt="">
+		</div>
+		<div class="row center">
+			<p>img en img-fluid</p>
+		</div>
+		<div class="row center">
+			<img class="img-fluid rounded" src="img.jpg" alt="">
+		</div>
+		<div class="row center">
+			<p>img en img-fluid rounded</p>
+		</div>
+		<div class="row center">
+			<img class="img-fluid rounded-circle" src="img.jpg" alt="">
+		</div>
+		<div class="row center">
+			<p>img en img-fluid rounded-circle</p>
+		</div>
+		<div class="row center">
+			<img class="img-fluid img-blur" src="img.jpg" alt="">
+		</div>
+		<div class="row center">
+			<p>img en img-fluid img-blur</p>
+		</div>
+		<div class="row center">
+			<img class="img-fluid img-thumbnail" src="img.jpg" alt="">
+		</div>
+		<div class="row center">
+			<p>img en img-fluid img-thumbnail</p>
+		</div>
+	</div>
+	<div class="container mt-2">
+		<div class="row center">
+			<h3>Les différents types de text color et leurs background</h3>
+		</div>
+		<div class="row center">
+			<p class="text-muted">Texte en text-muted</p>
+		</div>
+		<div class="row bg-muted center"> bg-muted</div>
+		<div class="row center">
+			<p class="text-succes">Texte en text-succes</p>
+		</div>
+		<div class="row bg-succes center"> bg-succes</div>
+		<div class="row center">
+			<p class="text-warning">Texte en text-warning</p>
+		</div>
+		<div class="row bg-warning center"> bg-warning</div>
+		<div class="row center">
+			<p class="text-danger">Texte en text-danger</p>
+		</div>
+		<div class="row bg-danger center"> bg-danger</div>
+		<div class="row center">
+			<p class="text-primary">Texte en text-primary</p>
+		</div>
+		<div class="row bg-primary center"> bg-primary</div>
+	</div>
+	<div class="container mt-2">
+		<div class="row center">
+			<h3>Les alertes</h3>
+		</div>
+		<div class="row alert alert-primary">Alert-primary</div>
+		<div class="row alert alert-success">Alert-success</div>
+		<div class="row alert alert-info">Alert-info</div>
+		<div class="row alert alert-warning">Alert-warning</div>
+		<div class="row alert alert-danger">Alert-danger</div>
+
+	</div>
+	<div class="container mt-2">
+		<div class="row center">
+			<h3>Les visibles/hidden</h3>
+		</div>
+		<div class="row center">
+			<p class="hidden-sm">Texte invisible sur petits ecrans</p>
+		</div>
+		<div class="row center">
+			<p class="hidden-lg">Texte invisible sur grands ecrans</p>
+		</div>
+		<div class="row center">
+			<p class="hidden-xl">Texte invisible sur tres grand écrans</p>
+		</div>
+	</div>
+	<div class="container mt-2">
+		<div class="row center">
+			<h3>Menus navbar</h3>
+		</div>
+		<nav class="navbar">
+			<ul class="nav">
+				<li class="nav-item"><a href="#">Grille</a></li>
+				<li class="nav-item"><a href="#">Remplissage</a></li>
+				<li class="nav-item"><a href="#">Masquer elements</a></li>
+				<li class="nav-item"><a href="#">Navbar</a></li>
+				<li class="nav-item"><a href="#">Popins</a></li>
+				<li class="nav-item"><a href="#">Onglets</a></li>
+				<li class="nav-item"><a href="#">Infobulles</a></li>
+				<li class="dropdown"><a href="#">Dropdown</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item">premier lien</a>
+						<a href="#" class="btn btn-blue dropdown-item">un button</a>
+						<a href="#" class="dropdown-item">3eme drop</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+
+</body>
+
+</html>
